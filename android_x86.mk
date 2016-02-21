@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+
 # includes the base of Android-x86 platform
 $(call inherit-product,device/generic/common/x86.mk)
 
