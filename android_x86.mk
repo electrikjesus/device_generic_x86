@@ -17,6 +17,9 @@
 # includes the base of Android-x86 platform
 $(call inherit-product,device/generic/common/x86.mk)
 
+# Inherit some common AICP stuff.
+$(call inherit-product,vendor/aicp/configs/common_tablet.mk)
+
 # Overrides
 PRODUCT_NAME := android_x86
 PRODUCT_BRAND := Android-x86
