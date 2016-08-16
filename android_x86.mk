@@ -17,8 +17,8 @@
 # includes the base of Android-x86 platform
 $(call inherit-product,device/generic/common/x86.mk)
 
-# Inherit some common AICP stuff.
-$(call inherit-product,vendor/aicp/configs/common_tablet.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product,vendor/bliss/config/common_full_tablet_wifionly.mk)
 
 # Overrides
 PRODUCT_NAME := android_x86
